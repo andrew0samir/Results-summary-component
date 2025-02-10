@@ -385,6 +385,7 @@
     --color-paleBlue: hsl(221, 100%, 96%);
     --color-lightLavender: hsl(241, 100%, 89%);
     --color-darkGrayBlue: hsl(224, 30%, 27%);
+    --color-lightRoyalBlue: hsl(241, 81%, 54%);
   }
 }
 @layer base {
@@ -695,6 +696,13 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:bg-lightRoyalBlue {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-lightRoyalBlue);
+      }
+    }
   }
   .md\:mt-0 {
     @media (width >= 48rem) {

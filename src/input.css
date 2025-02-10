@@ -16,6 +16,9 @@
     --color-paleBlue: hsl(221, 100%, 96%);
     --color-lightLavender: hsl(241, 100%, 89%);
     --color-darkGrayBlue: hsl(224, 30%, 27%);
+
+    /* hover bg color */
+    --color-lightRoyalBlue : hsl(241, 81%, 54%);
 }
 
 body {
